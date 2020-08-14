@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19690" started-at="2020-08-12T00:26:53 IST" finished-at="2020-08-12T00:27:13 IST">
+  <suite name="Default suite" duration-ms="32932" started-at="2020-08-14T22:15:57 IST" finished-at="2020-08-14T22:16:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19690" started-at="2020-08-12T00:26:53 IST" finished-at="2020-08-12T00:27:13 IST">
-      <class name="Test.SampleProject">
-        <test-method status="PASS" signature="OpenChromeDriver()[pri:0, instance:Test.SampleProject@49fc609f]" name="OpenChromeDriver" duration-ms="19640" started-at="2020-08-12T00:26:53 IST" finished-at="2020-08-12T00:27:13 IST">
+    <test name="Default test" duration-ms="32932" started-at="2020-08-14T22:15:57 IST" finished-at="2020-08-14T22:16:30 IST">
+      <class name="Test.TechbitesLogin">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Test.TechbitesLogin@3b084709]" name="OpenBrowser" is-config="true" duration-ms="18943" started-at="2020-08-14T22:15:57 IST" finished-at="2020-08-14T22:16:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenChromeDriver -->
-      </class> <!-- Test.SampleProject -->
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:Test.TechbitesLogin@3b084709]" name="Login" duration-ms="12311" started-at="2020-08-14T22:16:16 IST" finished-at="2020-08-14T22:16:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:2, instance:Test.TechbitesLogin@3b084709]" name="tearDown" duration-ms="370" started-at="2020-08-14T22:16:28 IST" finished-at="2020-08-14T22:16:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:Test.TechbitesLogin@3b084709]" name="Close" is-config="true" duration-ms="1268" started-at="2020-08-14T22:16:28 IST" finished-at="2020-08-14T22:16:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Test.TechbitesLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
